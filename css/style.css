@@ -1,0 +1,412 @@
+@font-face {
+  src: url('../fonts/OpenSans-Bold.ttf');
+  font-family: SansBold;
+}
+@font-face {
+  src: url('../fonts/OpenSans-Regular.ttf');
+  font-family: SansRegular;
+}
+@font-face {
+  src: url('../fonts/OpenSans-SemiBold.ttf');
+  font-family: SansSemiBold;
+}
+@font-face {
+  src: url('../fonts/PT_Serif-Web-BoldItalic.ttf');
+  font-family: SerifBold;
+}
+@font-face {
+  src: url('../fonts/PT_Serif-Web-Italic.ttf');
+  font-family: SerifItallic;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+.wrapper{
+  padding: 15px;
+}
+aside{
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+}
+nav{
+  margin-left: 40px;
+  position: fixed;
+}
+ul{
+  padding: 0;
+}
+ul li{
+  padding-top: 20px;
+  list-style: none;
+}
+ul li a{
+  color: #3E4A5E;
+  font-family: SansRegular;
+  text-decoration: none;
+}
+ul li a:hover{
+  color: #50D0CB;
+  font-weight: bold;
+}
+.Logo{
+  padding-top: 30px;
+}
+.line{
+  width: 50px;
+}
+.itf{
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 12px;
+  font-size: 12px;
+  width: 12px;
+  margin-top: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.ig:hover{
+  background: linear-gradient(140deg,#7E14B1,red,orange,yellow);
+  color: white;
+}
+.fb:hover{
+  background-color: blue;
+  color: white;
+}
+.tw:hover{
+  color: white;
+  background-color: #50D0CB;
+}
+.imgsec{
+  vertical-align: top;
+  width: 84%;
+  display: inline-block;
+}
+.water{
+  background-image: url('../images/water.jpg');
+  background-size: cover;
+  background-position: center;
+  border: 8px solid #50D0CB;
+}
+.textarea{
+  padding-top: 150px;
+  padding-left: 100px;
+  padding-bottom: 35px;
+}
+.date{
+  padding: 8px 12px;
+  font-family: SansBold;
+  background-color: #2B7481;
+  color: white;
+  display: inline-block;
+}
+.msg{
+  padding-left: 10px;
+  display: inline-block;
+  color: white;
+}
+.rep{
+  font-family: SansSemiBold;
+  padding-left: 4px;
+  display: inline-block;
+  color: white;
+  }
+  h1{
+    margin-top: 0;
+    font-family: SansBold;
+    color: white;
+    font-size: 44px;
+  }
+  .pra{
+    color: white;
+    font-family: SerifItallic;
+    padding-left: 150px;
+  }
+  .man{
+    margin-top: 25px;
+    padding-left: 150px;
+  }
+  .John{
+    font-family: SansBold;
+    font-size: 20px;
+    vertical-align: top;
+    padding-left: 20px;
+    color: white;
+    display: inline-block;
+  }
+  .art{
+    color: white;
+    font-family: SansRegular;
+    font-size: 15px;
+  }
+.img1{
+  background-image: url('../images/1.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.text1{
+  color: white;
+  padding-top: 5px;
+  font-family: SansBold;
+}
+.text2
+{
+  color: #25468B;
+  font-family: SerifBold;
+  font-size: 60px;
+}
+.day{
+  margin-top: -70px;
+  font-family: SerifItallic;
+  font-size: 40px;
+  color: white;
+}
+.share{
+  color: white;
+  display:inline-block;
+}
+.text3{
+  color: white;
+  display:inline-block;
+  font-family: SansBold;
+}
+.img2{
+  margin-left: 15px;
+  background-color: #25468B;
+  vertical-align: top;
+}
+.txt1{
+  color: white;
+  font-family: SansBold;
+  font-size: 22px;
+  padding-left: 20px;
+}
+.txt2{
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  font-family: SansRegular;
+}
+.date1{
+  padding: 8px 12px;
+  font-family: SansBold;
+  background-color: #2B7481;
+  color: white;
+  display: inline-block;
+  margin-left: 15px;
+}
+.img3{
+  vertical-align: top;
+  background-image: url('../images/2.jpg');
+  margin-left: 15px;
+  background-position: center;
+  background-size: cover;
+}
+.t1{
+  font-family: SansBold;
+  color: white;
+  padding-left: 15px;
+  font-size: 38px;
+  padding-top: 120px;
+}
+.twside{
+  margin-top: 15px;
+  padding-top: 50px;
+  border-top: 1px solid #50D0CB;
+  width: 66%;
+  display: inline-block;
+}
+.twitter{
+  padding-top: 60px;
+  color: #50D0CB;
+  padding-left: 50px;
+  font-size: 100px;
+  display: inline;
+}
+.reg{
+  font-family: SerifBold;
+}
+.aliquam{
+  padding-top: 50px;
+  vertical-align: top;
+  padding-left: 40px;
+  display: inline-block;
+  font-family: SerifItallic;
+  line-height: 30px;
+}
+input{
+  border-style: none;
+  width: 80px;
+  height: 25px;
+  cursor: pointer;
+  color: white;
+  background-color: #50D0CB;
+}
+.img4{
+  vertical-align: top;
+  background-color: #50D0CB;
+  margin-left: 15px;
+}
+.cl1{
+  color: #25468B;
+  font-family: SansBold;
+}
+.img{
+  margin-left: 0px;
+  background-color: #25468B;
+}
+.what{
+  color: white;
+  font-family: SansBold;
+  font-size: 30px;
+  padding-left: 15px;
+}
+.h{
+  color: #50D0CB;
+  font-family: SerifBold;
+}
+.img5{
+  vertical-align: top;
+  background-image: url('../images/3.jpg');
+  background-position: center;
+  background-size: cover;
+  margin-left: 15px;
+}
+.sus{
+  color: white;
+  font-family: SansBold;
+  font-size: 32px;
+  padding-left: 15px;
+  padding-top: 140px;
+}
+.img6{
+  vertical-align: top;
+  background-image: url('../images/4.jpg');
+  background-position: center;
+  background-size: cover;
+  margin-left: 15px;
+}
+.t2{
+  font-family: SansBold;
+  color: white;
+  padding-left: 15px;
+  font-size: 38px;
+  padding-top: 110px;
+}
+.same{
+  width: 32.1140%;
+  margin-top: 15px;
+  height: 373px;
+  display: inline-block;
+}
+footer{
+  margin-top: 50px;
+  text-align: center;
+}
+footer p{
+  font-family: SansRegular;
+}
+
+/* Media Queries */
+}
+@media (max-width:1286px) {
+  .aliquam{
+    padding-left: 0px;
+  }
+}
+@media (max-width:1268px) {
+  .img1{
+  width: 49%;
+  }
+  .img2{
+  width: 49%;
+  }
+  .img3{
+  width: 49%;
+  }
+.img3{
+  margin-left: 0px;
+}
+.img{
+  width: 49%;
+}
+.img5{
+  width: 49%;
+}
+.img6{
+  margin-left: 0px;
+  width: 49%;
+}
+.img6{
+  margin-left: 0px;
+}
+}
+@media (max-width:1230px) {
+  .twside{
+    width: 100%;
+    text-align: center;
+  }
+  .twitter{
+    padding-left: 0px;
+  }
+.img4{
+  margin-left: 0px;
+  width: 100%;
+}
+}
+@media (max-width:1160px) {
+  .same{
+  width: 100%;
+  }
+  .img5{
+    margin-left: 0px;
+  }
+.img2{
+  margin-left: 0px;
+}
+nav{
+  margin-left: 15px;
+}
+}
+@media (max-width:868px) {
+  .imgsec{
+    width: 100%;
+  }
+  aside{
+    width: 100%;
+  }
+  nav{
+    position:relative;
+  }
+}
+@media (max-width:580px) {
+  .pra{
+    padding-left: 5px;
+  }
+  .man{
+    padding-left: 5px;
+  }
+}
+@media (max-width:438px) {
+  .textarea{
+    padding-left: 10px;
+  }
+
+}
+@media (max-width:354px) {
+  .t1{
+    padding-top: 50px;
+  }
+.sus{
+  padding-top: 50px;
+}
+.t2{
+  padding-top: 50px;
+}
+.man{
+  padding-left: 100px;
+}
+}
